@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <!-- Gradiente para el color verde AlexGreen -->
+    <linearGradient id="bahiaVerdeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo con bordes redondeados -->
+  <rect width="1024" height="1024" rx="220" fill="#111111" />
+  
+  <!-- Cuerpo de la NAS (Grande y centrado) -->
+  <rect x="200" y="240" width="624" height="544" rx="60" fill="#2a2a2a" />
+  
+  <!-- Bahía Izquierda -->
+  <rect x="262" y="300" width="230" height="424" rx="30" fill="#1c1c1c" />
+  <!-- LED Verde restaurado en la bahía izquierda -->
+  <circle cx="377" cy="670" r="20" fill="#2ecc71" />
+  
+  <!-- Bahía Derecha (Verde sólido) -->
+  <rect x="532" y="300" width="230" height="424" rx="30" fill="url(#bahiaVerdeGrad)" />
+  <!-- LED Blanco para contraste en la bahía verde -->
+  <circle cx="647" cy="670" r="20" fill="white" />
+  
+  <!-- Detalle superior de ventilación -->
+  <rect x="262" y="265" width="500" height="15" rx="7" fill="#1c1c1c" />
+</svg>
