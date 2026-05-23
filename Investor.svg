@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Fondo oscuro Fintech -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Contenedor de la App -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGradient)" />
+
+  <!-- Grupo del logo ampliado, simétrico y centrado -->
+  <g transform="translate(15, 15)">
+    
+    <!-- TRAMO 1: Verde Bosque Oscuro (Inicio/Base) -->
+    <path d="M 80 340 L 180 240" 
+          fill="none" 
+          stroke="#047857" 
+          stroke-width="26" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- TRAMO 2: Verde Esmeralda Vivo (Transición/Medio) -->
+    <path d="M 180 240 L 260 290" 
+          fill="none" 
+          stroke="#10B981" 
+          stroke-width="26" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- TRAMO 3: Verde Menta Claro (Subida Final hacia la punta) -->
+    <path d="M 260 290 L 390 140" 
+          fill="none" 
+          stroke="#34D399" 
+          stroke-width="26" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- CABEZA DE LA FLECHA: Mismo color que el último tramo para integrarse perfectamente -->
+    <path d="M 320 140 L 390 140 L 390 210" 
+          fill="none" 
+          stroke="#34D399" 
+          stroke-width="26" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+</svg>
