@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Investor app icon">
+  <defs>
+    <linearGradient id="bg" x1="0.14" y1="0" x2="0.86" y2="1">
+      <stop offset="0" stop-color="#161f34"></stop>
+      <stop offset="1" stop-color="#0b101d"></stop>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"></stop>
+      <stop offset="0.38" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+    <clipPath id="squircle">
+      <rect x="0" y="0" width="1024" height="1024" rx="229" ry="229"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#squircle)">
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#bg)"></rect>
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#gloss)"></rect>
+    <polyline points="158.4,698.2 344.4,558.5 484.1,614.4 698.2,363.1 865.7,242.0" fill="none" stroke="#5b7cfa" stroke-width="32.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"></polyline>
+    <circle cx="865.7" cy="242.0" r="37.2" fill="#5b7cfa"></circle>
+    <g fill="#ffffff">
+      <rect x="366.4" y="163.0" width="291.2" height="96.3" rx="6"></rect>
+      <rect x="441.8" y="163.0" width="140.3" height="698.0"></rect>
+      <rect x="366.4" y="764.7" width="291.2" height="96.3" rx="6"></rect>
+    </g>
+  </g>
+</svg>
